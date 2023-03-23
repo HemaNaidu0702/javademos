@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class exceptions {
     public static void main(String [] args) {
         //arithemeticexception();
-        //stringparseerror();
-    	 nullpointer();
+        // stringparseerror();
+    	// nullpointer();
     }
 
 
@@ -29,6 +29,8 @@ public static void arithemeticexception() {
 		System.out.println("modulus is " + d);
 	} catch(Exception ex) {
 		System.out.println("Exception " + ex.getMessage());
+	} finally {
+		System.out.println("End of calculator");
 	}
 }
 
